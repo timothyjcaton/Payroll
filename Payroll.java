@@ -3,14 +3,12 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import static javax.swing.UIManager.get;
 
 /**
  * Created by tjc4h on 6/29/2016.
  */
 public class Payroll implements Serializable
 {
-    //private Employee[] employees = new Employee[3];
     public ArrayList<Employee> employees = new ArrayList<Employee>();
     public boolean accountsLoaded = false;
 
